@@ -8,10 +8,6 @@ class TodoForm extends Component {
     }
   }
 
-  addTodo() {
-    console.log('clicked')
-  }
-
   updateText(event) {
     console.log('updateText')
     console.log(event.target.value)
@@ -22,6 +18,7 @@ class TodoForm extends Component {
 
 
   addTodo(){
+    console.log('clicked')
     this.props.addNewTodoFunc(this.state.text)
     this.setState({
       text: ''

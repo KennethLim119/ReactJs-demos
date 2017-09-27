@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import TodoForm from './TodoForm.js';
 import TodoList from './TodoList.js';
-
-
 class App extends Component {
   constructor(props){
     super(props);
