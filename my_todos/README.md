@@ -9,7 +9,7 @@ This app uses React, it is a simple to do app that can list the things you need 
 
 ## how to use this App
 
-'''
+```
 $ npm start
-'''
+```
 and go the http://localhost:3000/
