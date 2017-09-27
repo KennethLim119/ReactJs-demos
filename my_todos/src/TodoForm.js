@@ -20,6 +20,14 @@ class TodoForm extends Component {
     })
   }
 
+
+  addTodo(){
+    this.props.addNewTodoFunc(this.state.text)
+    this.setState({
+      text: ''
+    })
+  }
+
   render() {
     return(
       <div>

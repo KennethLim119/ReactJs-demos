@@ -23,7 +23,7 @@ addNewTodo(todo) {
     return (
       <div className="App">
         <h1>My Todos</h1>
-        <TodoForm addNewTodoFunc=(this.addNewTodo)/>
+        <TodoForm addNewTodoFunc={this.addNewTodo.bind(this)}/>
         <TodoList todo_data={this.state.todos}/>
       </div>
     );
